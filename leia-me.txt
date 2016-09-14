@@ -1,0 +1,34 @@
+O banco de imagens e estruturado da seguinte forma
+
+Localizado dentro da pasta [data-set] constam três pastas:
+
+	[Pasta B1], contendo o primeiro grupo de ??? imagens.
+
+	[Pasta B2], contendo o segundo grupo de ??? imagens. 
+	Estas imagens formam um extrato da base de imagens disponibilizada pelo laboratório de pesquisas Arte-Lab (http://artelab.dicom.uninsubria.it/downloads.html)
+
+	[Pasta B11], contendo o terceiro grupo de imagens (utilizado para validação do método).
+
+Cada pasta de grupo possui é estruturada da seguinte forma:
+
+	pasta [ORIG], que contém as imagens originalmente capturadas dos medidiores.
+	pasta [HSL], que contém as imagens resultantes do processo de limiarização com base no espaço de cores HSL.
+	pasta [ROI], que contém as imagens resultantes da segmentação da região de interesse (o contador de consumo).
+	pasta [DIGS], que contém os dígitos individualmente segmentados.
+
+A estrutura de nomes das imagens segue o seguinte esquema:
+
+	NNN-IMG-MED.BMP, para as imagens originais
+	NNN-IMG-MED_P01_01_RED.BMP, para as imagens binárias que identificam áreas vermelhas
+	NNN-IMG-MED_P01_02_BLK.BMP, para as imagens binárias que identificam áreas pretas
+	NNN-IMG-MED_P03_ROI_RGB.BMP, para as imagens da ROI segementada (contador de consumo)
+	 :
+	 :----- "NNN" é o número sequencial da imagem. Ex: 061-IMG-MED.BMP se refere a 61ª imagem original.
+
+	Bbb_NNN_Dd.BMP, para cada imagem de dígito individualmente segmentado
+	         :
+	         :----- "d" é o número sequencial do dígito. 
+	     :
+	     :----- "NNN" é o número sequencial da imagem. 
+	 :
+	 :----- "bb" é o código do grupo de imagem. Ex: B11_061_D1.BMP se refere ao 1º dígito segmentado da 61ª imagem do grupo B11.
