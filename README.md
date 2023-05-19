@@ -9,7 +9,7 @@ Este repositório contém imagens de medidores de consumo de gás natural. Estas
 >Dissertação publicada no repositório institucional da Universidade Tecnológica Federal do Paraná (UTFPR).
 >Acesso em: https://repositorio.utfpr.edu.br/jspui/handle/1/2210
 
->Artikgo originado da dissertação e publicado na revista Abakós, periódico científico da Universidade Católica de Minas Gerais (PUC Minas).
+>Artigo publicado na revista Abakós, periódico científico da Universidade Católica de Minas Gerais (PUC Minas).
 >Acesso em: https://doi.org/10.5752/P.2316-9451.2017v5n2p59
 
 #### <i class="icon-file"></i> Resumo do Trabalho
